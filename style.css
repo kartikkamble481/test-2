@@ -1,0 +1,59 @@
+/* Body Design */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Main Container */
+.container {
+    text-align: center;
+    background: white;
+
+    padding: 50px;
+    border-radius: 20px;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+h1 {
+    color: #333;
+    font-size: 40px;
+}
+
+/* Paragraph */
+p {
+    color: #666;
+    font-size: 20px;
+}
+
+/* Button */
+button {
+    padding: 15px 30px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #667eea;
+    color: white;
+
+    font-size: 18px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Button Hover */
+button:hover {
+    transform: scale(1.1);
+    background: #764ba2;
+}
